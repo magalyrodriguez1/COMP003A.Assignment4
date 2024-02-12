@@ -28,6 +28,23 @@ namespace COMP003A.Assignment4
             output += "#";
             }
 
+            Console.WriteLine("\n".PadRight(50, '*'));
+            Console.WriteLine("foreach Section");
+            Console.WriteLine("Output all of the friends in an array");
+            Console.WriteLine("".PadRight(50, '*'));
+
+            string[] friends = new string[] { "Rachel", "Joey", "Chandler", "Ross", "Monica", "Phoebe" };
+
+            foreach (var item in friends)
+            {
+                Console.WriteLine(item);
+            }
+
+            Console.WriteLine("\n".PadRight(50, '*'));
+            Console.WriteLine("do-while Section");
+            Console.WriteLine("Output 0-50 by 5s");
+            Console.WriteLine("".PadRight(50, '*'));
+
         }
     }
 }
